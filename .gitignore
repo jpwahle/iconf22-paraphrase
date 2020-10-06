@@ -1,0 +1,12 @@
+logs/
+results/
+__pycache__/
+*.ckpt
+*.pyc
+lightning_logs/
+.vscode/
+nohup.out
+run_*.sh
+job_*.sh
+.DS_Store
+NLM/config.json
