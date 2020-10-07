@@ -70,9 +70,9 @@ class LMFinetuner(pl.LightningModule):
         return torch.optim.Adam([p for p in self.parameters() if p.requires_grad], lr=self.learning_rate)
     
     def train_dataloader(self):
-        return DataLoader(self.train_dataset, shuffle=self.data_args.shuffle, num_workers=(self.data_args.num_workers or multiprocessing.cpu_count()), batch_size=self.batch_size, collate_fn=collate_batch, pin_memory=True if torch.cuda.is_available and torch.cuda.device_count() > 1)
+        return DataLoader(self.train_dataset, shuffle=self.data_args.shuffle, num_workers=(self.data_args.num_workers or multiprocessing.cpu_count()), batch_size=self.batch_size, collate_fn=collate_batch, pin_memory=True if torch.cuda.is_available and torch.cuda.device_count() > 1 else False)
     
     def val_dataloader(self):
         return [              
-            DataLoader(val_dataset, num_workers=(self.data_args.num_workers or multiprocessing.cpu_count()), batch_size=self.batch_size, collate_fn=collate_batch, pin_memory=True if torch.cuda.is_available() and torch.cuda.device_count() > 1) for val_dataset in self.val_datasets
+            DataLoader(val_dataset, num_workers=(self.data_args.num_workers or multiprocessing.cpu_count()), batch_size=self.batch_size, collate_fn=collate_batch, pin_memory=True if torch.cuda.is_available() and torch.cuda.device_count() > 1 else False) for val_dataset in self.val_datasets
         ]
