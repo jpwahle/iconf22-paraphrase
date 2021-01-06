@@ -46,12 +46,14 @@ If you use this repository or the results from our paper for your research work,
 > tbd after publishing
 
 If you used the dataset, please also cite.
+```
 @inproceedings{Foltynek2020,
   title = {Detecting {Machine}-obfuscated {Plagiarism}},
   booktitle = {Proceedings of the {iConference} 2020},
   author = {Folt{\'y}nek, Tom{\'a}{\v s} and Ruas, Terry and Scharpf, Philipp and Meuschke, Norman and Schubotz, Moritz and Grosky, William and Gipp, Bela},
   year = {2020},
-series    = {Lecture Notes in Computer Science},
-publisher = {Springer},
+  series    = {Lecture Notes in Computer Science},
+  publisher = {Springer},
 }
+
 https://doi.org/10.5281/zenodo.3608000
