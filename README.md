@@ -59,6 +59,7 @@ If you use this repository or the results from our paper for your research work,
   booktitle    = {Proceedings of the iConference},
   location     = {Virtual Event},
   topic        = {pd}
+  doi          = {https://doi.org/10.1007/978-3-030-96957-8_34}
 }
 ```
 
