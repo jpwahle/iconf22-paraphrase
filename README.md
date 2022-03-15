@@ -1,6 +1,6 @@
 # Identifying Machine-Paraphrased Plagiarism
 
-This repositroy implements the paper "Identifying Machine-Paraphrased Plagiarism". 
+This repositroy implements the paper ["Identifying Machine-Paraphrased Plagiarism"](https://arxiv.org/abs/2103.11909). 
 We structure the repository in two parts: (1) the classical machine learning models relying on static word embeddings, and (2) the neural language models learning paraphrase detection end-to-end.
 
 You can find detailled descriptions on how to reconstruct each of the experiments in the respective README files.
