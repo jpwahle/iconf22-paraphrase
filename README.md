@@ -1,5 +1,8 @@
 # Identifying Machine-Paraphrased Plagiarism
 
+[![arXiv](https://img.shields.io/badge/arXiv-2103.11909-b31b1b.svg)](https://arxiv.org/abs/2103.11909)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3608000.svg)](https://zenodo.org/record/3608000)
+
 This repositroy implements the paper ["Identifying Machine-Paraphrased Plagiarism"](https://arxiv.org/abs/2103.11909). 
 We structure the repository in two parts: (1) the classical machine learning models relying on static word embeddings, and (2) the neural language models learning paraphrase detection end-to-end.
 
