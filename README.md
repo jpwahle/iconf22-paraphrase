@@ -9,7 +9,7 @@ We structure the repository in two parts: (1) the classical machine learning mod
 You can find detailled descriptions on how to reconstruct each of the experiments in the respective README files.
 
 ## Dataset
-The dataset that was created for this publication can be downloaded from [Zenodo](https://zenodo.org/record/3608000). If you want to evaluate the neural language models, you can also use the `NLM/prepare_data.sh` script which will download and and extract the data for you.
+The dataset that was created for this publication can be downloaded from [HuggingFace](https://huggingface.co/datasets/jpwahle/machine-paraphrase-dataset) and [Zenodo](https://zenodo.org/record/3608000). If you want to evaluate the neural language models, you can also use the `NLM/prepare_data.sh` script which will download and and extract the data for you.
 
 ## Results
 To reproduce the machine learning and word embedding experiments, follow [ML-README](./ML/README.md).
