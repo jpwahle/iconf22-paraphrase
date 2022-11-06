@@ -50,7 +50,6 @@ python3 main.py [options]
         --model_max_length [Optional]
           Maximum sequence length of the model. Default will take the default sequence length
 
-
         --neptune_logging: [Optional]
           Whether to log to neptune.ai or not. Needs environment variables $NEPTUNE_PROJECT and $NEPTUNE_API_TOKEN
 
